@@ -4,8 +4,7 @@ function [ene_list, rp_list, ra_list] = TG_resonant(moon, v_inf)
     % rp_list : a matrix containing the periapsis' values for the various resonant orbits found: rp_list(j,k) corresponds to the periapsis of the orbit with a resonance of j:k
     % ra_list : a matrix containing the apoapsis' values for the various resonant orbits found: rp_list(j,k) corresponds to the apoapsis of the orbit with a resonance of j:k
     % ene_list : a matrix containing the orbital energy values for the various resonant orbits found: ene_list(j,k) corresponds to the orbital energy of the orbit with a resonance of j:k
-%provaprovaprova 
-provaprovaprova
+
 moons=["Io", "Europa", "Ganimede", "Callisto"];
 Rp = [421.6e3 670.9e3 1.07e6 1.883e6]; % moon distance -> Io, Europa, Ganimede and Callisto respectevely
 mu_jup = 1.899*10^27 * 6.6743 * 10^(-20); %Jupiter gravitational constant
